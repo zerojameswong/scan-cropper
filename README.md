@@ -1,6 +1,10 @@
 # scan-cropper
 ## What it does
 This is a simple solution to remove white borders in scans of physical images. There can be much more complete solutions for more general cases but this was sufficient for my use case at the time and quick to implement
+### Before
+![Before](examples/test.png)
+### After
+![After](examples/test%20result.png)
 ## Limitations
 * The physical image must be relatively straight in the scan such that the edges of the physical image are parallel to the edges of the scan. This minimises the possibility of white triangles being present after cropping
 * White physical images present a difficulty for differentiating the bounadries of the physical image and the white borders around it. Tweaking the threshold value can help with this to some extent
